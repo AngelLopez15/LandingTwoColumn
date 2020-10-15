@@ -1,0 +1,41 @@
+.header{
+  &__navbar{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__navbar-logo{
+    width: 6rem;
+  }
+
+  &__navbar-menu{
+    display: flex;
+    @include reset-list;
+  }
+
+  &__navbar-menu-item{
+    padding-left: 1rem;
+  }
+
+  &__navbar-menu-link{
+    color: $primary-color-dark-blue;
+    text-decoration: none;
+  }
+
+  .banner{
+
+    padding-top: 6rem;
+    margin: 0 1rem;
+
+    &__img img {
+      max-width: 100%;
+    }
+
+    &__description{
+      text-align: center;
+    }
+
+  }
+}

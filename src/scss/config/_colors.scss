@@ -1,0 +1,15 @@
+:root{
+  --primary-color-dark-blue:hsl(243, 87%, 12%);
+  --secondary-color-blue:hsl(238, 22%, 44%);
+  --color-bright-blue:hsl(224, 93%, 58%);
+  --color-moderate-cyan:hsl(170, 45%, 43%);
+  --primary-light-grayish-blue:hsl(240, 75%, 98%);
+  --secondary-light-gray:hsl(0, 0%, 75%);
+}
+
+$primary-color-dark-blue:var(--primary-color-dark-blue);
+$secondary-color-blue:var(--secondary-color-blue);
+$color-bright-blue:var(--color-bright-blue);
+$color-moderate-cyan:var(--color-moderate-cyan);
+$primary-light-grayish-blue:var(--primary-light-grayish-blue);
+$secondary-light-gray:var(--secondary-light-gray);

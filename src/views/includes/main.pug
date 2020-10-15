@@ -1,0 +1,32 @@
+block main
+  main.main
+    img(src="images/bg-curve-desktop.svg", alt="curve decorative picture").main__imagen
+    section.main__description
+      //- picture
+      //-   source(media="(min-width: 375px)", srcset="images/bg-curve-mobile.svg").main__imagen
+      //-   source(media="(min-width: 1024px)", srcset="images/bg-curve-desktop.svg").main__imagen
+      .main__imagen-container
+        img(src="images/illustration-2.svg", alt="decorative picture").main__imagen
+      .main__content-container
+        h2.main__title Stay productive, wherever you are
+        p.main__text-description-p1 Never let location  be an issue when accessing your files. Fylo has you covered for all of you file storage needs.
+        p.main__text-description-p2 Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
+        p.main_text-cllta See how Fylo works
+        img(src="images/icon-arrow.svg", alt="icon arrow") 
+        blockquote.main__quote
+          img(src="images/icon-quotes.svg", alt="icon quote")
+          p.main__quote-text Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+          footer
+            img(src="images/avatar-testimonial.jpg", alt="avatar quote").main__quote-avatar
+            p
+              span.main__quote-avatar-name Kyle Burton
+              | Founder & CEO, Huddle
+    section.main__description-two
+      .main__description-two-text
+        h2.main__description-two-title Get early access today
+        p.main__description-two-text-description it only takes a minute to sign up and our free started tier is extremely generous. If you have any questions, our support team would be happy to help us.
+      .main__description-two-form
+        form(action="#").main__description-two-form
+          label(for="email")
+          input(type="email", name="email", id="email" placeholder="Enter your email").main__description-two-form-input
+          input(type="submit", value="Get Started").main__description-two-form-submit 

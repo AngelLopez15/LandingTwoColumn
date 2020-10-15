@@ -1,0 +1,24 @@
+// media querys
+$mobile: 375px;
+$laptop: 1024px;
+$desktop: 1440px;
+
+// mixins para responsive web desing
+
+@mixin mobile {
+  @media screen and (max-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media screen and (min-width: $laptop) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $desktop){
+    @content;
+  }
+}
