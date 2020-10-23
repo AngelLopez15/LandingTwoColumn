@@ -1,12 +1,13 @@
 block main
   main.main
-    img(src="images/bg-curve-desktop.svg", alt="curve decorative picture").main__imagen
+    .main__imagen-container
+      img(src="images/bg-curve-desktop.svg", alt="curve decorative picture").main__imagen
     section.main__description
       //- picture
       //-   source(media="(min-width: 375px)", srcset="images/bg-curve-mobile.svg").main__imagen
       //-   source(media="(min-width: 1024px)", srcset="images/bg-curve-desktop.svg").main__imagen
       .main__imagen-container
-        img(src="images/illustration-2.svg", alt="decorative picture").main__imagen
+        img(src="images/illustration-2.svg", alt="decorative picture").main__imagen-main
       .main__content-container
         h2.main__title Stay productive, wherever you are
         p.main__text-description-p1 Never let location  be an issue when accessing your files. Fylo has you covered for all of you file storage needs.
